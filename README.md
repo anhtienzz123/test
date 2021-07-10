@@ -2,7 +2,7 @@
 
 ## Cách sử dụng
 
-Clone project về và chạy 2 câu lệnh sau
+Clone project về và chạy 2 câu lệnh sau, project chạy trên [http://localhost:3001](http://localhost:3001)
 
 ### `npm i`
 
