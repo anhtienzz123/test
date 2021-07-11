@@ -12,6 +12,21 @@ Clone project về và chạy 2 câu lệnh sau, project chạy trên [http://lo
 
 ### Word
 
-- `/word/:name`: lấy thông tin từ vựng
-  - params: name: String, topic: String, page: int, size: int
-  - body: {}
+- `/word/:name`: lấy thông tin từ vựng.
+  - params: name: String, topic: String, page: int, size: int.
+  - body: {}.
+
+# API Web Tiếng Anh - Spring Boot
+
+## API
+
+## Login
+- `/login [POST]`: đăng nhập.
+  - body: {username: String, password: String}.
+
+## Course
+- `/courses [GET]`: lấy danh sách khóa học từ vựng.
+  - params: name: String, topicSlug: String, page: int, size: int.
+- `/courses/topics [GET]`: lấy danh sách topic
+- `/courses/:slug [GET]`: lấy chi tiết khóa học từ vựng
+  
