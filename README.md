@@ -13,5 +13,5 @@ Clone project về và chạy 2 câu lệnh sau, project chạy trên [http://lo
 ### Word
 
 - `/word/:name`: lấy thông tin từ vựng
-  - params: name:String ,topic:String, page: int, size: int
+  - params: name: String, topic: String, page: int, size: int
   - body: {}
