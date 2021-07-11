@@ -25,8 +25,8 @@ Clone project về và chạy 2 câu lệnh sau, project chạy trên [http://lo
   - body: {username: String, password: String}.
 
 ### Course
-- `/courses [GET]`: lấy danh sách khóa học từ vựng.
+- `[GET] /courses/topics [GET]`: lấy danh sách topic
+- `[GET] /courses`: lấy danh sách khóa học từ vựng.
   - params: name: String, topicSlug: String, page: int, size: int.
-- `/courses/topics [GET]`: lấy danh sách topic
-- `/courses/:slug [GET]`: lấy chi tiết khóa học từ vựng
+- `[GET] /courses/:slug [GET]`: lấy chi tiết khóa học từ vựng
   
